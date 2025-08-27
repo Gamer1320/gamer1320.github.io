@@ -130,7 +130,6 @@ app.get('/api/auth/me', async (req, res) => {
     return res.json(safeUser);
 });
 
-
 app.post('/api/auth/logout', (req, res) => {
     // destroy the session in the store
     req.session.destroy(err => {

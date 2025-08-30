@@ -117,7 +117,7 @@ export default function Careers() {
 										{job.subtitle}
 									</p>
 
-									<div className="flex items-center text-[#870044] font-medium text-sm group-hover:translate-x-2 transition-transform duration-300">
+									<div className="flex items-center text-[#000000] font-medium text-sm group-hover:translate-x-2 transition-transform duration-300">
 										<span>Learn More</span>
 										<svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 											<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -280,7 +280,7 @@ export default function Careers() {
 								</button>
 								<button
 									onClick={() => {
-										window.open('https://discord.gg/nXezEf4mQQ', '_blank')
+										window.open('https://discord.gg/nxseHHfrRH', '_blank')
 										setShowApplyModal(false)
 									}}
 									className="w-full flex items-center justify-center space-x-3 px-6 py-3 bg-[#5865F2] text-white rounded-lg hover:bg-[#4752C4] transition-colors font-medium"

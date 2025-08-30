@@ -6,14 +6,14 @@ export default {
 		extend: {
 			colors: {
 				red: {
-					...defaultTheme.colors.red,
-					50: '#660033',
-					100: '#660033',
+					...defaultTheme.colors.black,
+					50: '#1C1C1C',
+					100: '#1C1C1C', // Why Choose Qatar Boxes
 					200: 'white',
-					800: '#870044',
-					900: 'rgba(92, 6, 50, 0.7)',
+					800: '#1C1C1C', // join now
+					900: '#1C1C1C', // ready to takeoff
 				},
-				'primary': '#870044',
+				'primary': '#1c1c1c',
 				'secondary': '#747F8A',
 				'light-secondary': '#E0E0E0'
 			},

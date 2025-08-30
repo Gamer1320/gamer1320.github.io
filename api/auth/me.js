@@ -54,7 +54,7 @@ export default async function handler(req, res) {
     topRole = roles
       .filter(r => member.roles.includes(r.id))
       .sort((a,b) => b.position - a.position)[0]?.name || null;
-    isAdmin = member.roles.includes('1363476071982563428');
+    isAdmin = member.roles.includes('1351943924628983901');
   } catch (err) {
     if (err.response && err.response.status !== 404) {
       console.warn('Could not fetch member/roles:', err.response.data || err.message);

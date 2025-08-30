@@ -102,19 +102,19 @@ export default function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				{/** Nav + footer routes */}
-				<Route element={<MainLayout />}>
-					<Route path="/" element={<Home />} />
-					{/* <Route path="/fleet" element={<Fleet />} /> */}
-					<Route path="/fleet-admin" element={<Fleet />} />
-					{/* <Route path="/fly-with-us" element={<FlyWithUs />} /> */}
-					<Route path="/terms" element={<TermsPage />} />
-					<Route path="/privacy" element={<Privacy />} />
-					{/* <Route path="/destinations" element={<Destinations />} /> */}
-					<Route path="/des-admin" element={<Destinations />} />
-					<Route path="/admin" element={<AdminDashboard />} />
-					<Route path="/careers" element={<Careers />} />
-				</Route>
+  {/** Nav + footer routes */}
+  <Route element={<MainLayout />}>
+    <Route path="/" element={<Home />} />
+    <Route path="/fleet" element={<Fleet />} />       {/* Uncomment this line */}
+    <Route path="/fleet-admin" element={<Fleet />} />  {/* You can keep or remove this admin route */}
+    <Route path="/fly-with-us" element={<FlyWithUs />} />
+    <Route path="/terms" element={<TermsPage />} />
+    <Route path="/privacy" element={<Privacy />} />
+    <Route path="/destinations" element={<Destinations />} />
+    <Route path="/des-admin" element={<Destinations />} />
+    <Route path="/admin" element={<AdminDashboard />} />
+    <Route path="/careers" element={<Careers />} />
+  </Route>
 
 				{/** Bare layout for 404 */}
 				<Route element={<BareLayout />}>

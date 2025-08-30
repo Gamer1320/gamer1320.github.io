@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, ChevronDown, LogOut, UserPlus, UserRoundPlus, User } from 'lucide-react'
 import { FaDiscord } from 'react-icons/fa'
 
-import logoUrl from '../assets/SVG/QatarAirwaysVirtualLogoLong.svg'
+import logoUrl from '../assets/SVG/rougelong.svg'
 
 type User = {
 	id: string

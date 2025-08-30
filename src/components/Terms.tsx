@@ -8,7 +8,7 @@ const TermsPage: React.FC = () => (
 
         {/* Basic ToS */}
         <p>
-            Welcome to Qatar Airways Virtual. By accessing or using our website, you agree to be
+            Welcome to Allegiant Air Virtual. By accessing or using our website, you agree to be
             bound by these Terms of Service.
         </p>
 
@@ -21,7 +21,7 @@ const TermsPage: React.FC = () => (
         <h2 className="text-2xl font-semibold">2. Intellectual Property</h2>
         <p>
             All content, logos, graphics, and software on this site are the property of
-            Qatar Airways Virtual or its licensors and are protected by copyright laws.
+            Allegiant Air Virtual or its licensors and are protected by copyright laws.
         </p>
 
         <h2 className="text-2xl font-semibold">3. Limitation of Liability</h2>

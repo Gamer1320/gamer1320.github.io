@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import { Users as UsersIcon, Gauge as GaugeIcon, Fuel as FuelIcon } from 'lucide-react'
-import B727 from '../assets/B727.png'
-import B777 from '../assets/B777.png'
-import A350 from '../assets/A350.png'
-import B787 from '../assets/B787.png'
+import B727 from '../assets/a320.png'
 
 type Aircraft = {
 	model: string
@@ -20,40 +17,13 @@ type Aircraft = {
 
 const FLEET: Aircraft[] = [
 	{
-		model: 'Boeing 727',
-		name: 'The Classic',
+		model: 'Airbus A320-200',
+		name: 'The Nintindo Jet',
 		description:
-			'The Boeing 727 is a groundbreaking tri-jet aircraft that transformed air travel since its launch. Renowned for its T-tail design and efficiency, it could operate from shorter runways while accommodating up to 189 passengers. This aircraft became a favorite for airlines, blending comfort and reliability in both domestic and international flights. Its legacy continues to impact modern aviation, reflecting Boeing\'s dedication to innovation.',
+			'The Airbus A320-200 is one of the world’s most popular narrow-body commercial aircraft, widely recognized for its efficiency, reliability, and comfort. Designed for short to medium-haul routes, it typically seats around 150–180 passengers in a two-class configuration. The A320-200 features advanced aerodynamics, fly-by-wire technology, and fuel-efficient engines, making it a favorite among airlines for both domestic and international operations. Its versatile design allows carriers to operate it in a wide range of markets, from high-frequency shuttle flights to longer regional services.',
 		image: B727,
-		specifications: { passengers: '149–189', rangeKm: 4400, speedKph: 964 },
+		specifications: { passengers: '150–180', rangeKm: 6150, speedKph: 871 },
 		features: ['Tri‑jet Configuration', 'Proven Reliability', 'Comfortable Seating', 'Regional Excellence'],
-	},
-	{
-		model: 'Boeing 777‑300ER',
-		name: 'The Long‑Haul Champion',
-		description:
-			'The Boeing 777-300ER is a premier long-range, wide-body aircraft celebrated for its impressive capacity and outstanding efficiency. With seating for over passengers, it seamlessly blends comfort and advanced technology, making it the top choice for many travellers. Its powerful engines and sleek aerodynamic design empower it to effortlessly cover vast distances, while its spacious cabins elevate the flying experience to new heights. We have two liveries, one being the 2022 FIFA WC livery, restricted only to @Captain and above.',
-		image: B777,
-		specifications: { passengers: '314–396', rangeKm: 17370, speedKph: 905 },
-		features: ['Twin‑Engine Efficiency', 'Premium Comfort', 'Advanced Avionics', 'Global Reach'],
-	},
-	{
-		model: 'Boeing 787 Dreamliner',
-		name: 'The Dreamliner',
-		description:
-			'The Boeing 787 Dreamliner is a groundbreaking long-haul aircraft celebrated for its fuel efficiency, advanced technology, and comfort. With a composite fuselage and wings, it reduces weight and enhances aerodynamics, leading to lower fuel consumption. The Dreamliner features state-of-the-art systems, including larger windows and improved cabin pressure, which enhance the flying experience. The B787 connects global destinations while providing an unforgettable experience in the air.',
-		image: B787,
-		specifications: { passengers: '242–335', rangeKm: 14140, speedKph: 913 },
-		features: ['Composite Materials', 'Fuel Efficient', 'Quiet Cabin', 'Advanced Systems'],
-	},
-	{
-		model: 'Airbus A350',
-		name: 'The Future of Flight',
-		description:
-			'The Airbus A350 is a state-of-the-art, long-range, wide-body designed for efficiency and passenger comfort. Featuring advanced aerodynamics and lightweight materials, it offers reduced fuel consumption and lower emissions compared to older models. The cabin is equipped with modern amenities and spacious seating, ensuring a pleasant flying experience for. With its impressive range and performance, the A350 is the leader of the skies.',
-		image: A350,
-		specifications: { passengers: '253–440', rangeKm: 15000, speedKph: 903 },
-		features: ['Next‑Gen Materials', 'Fuel Efficient', 'Quiet Cabin', 'Enhanced Connectivity'],
 	},
 ]
 
@@ -78,7 +48,7 @@ export default function Fleet() {
 					<h2 className="text-3xl font-extrabold text-center mb-8">Fleet At a Glance</h2>
 					<div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
 						<div className="text-center">
-							<p className="text-6xl font-extrabold leading-none">4</p>
+							<p className="text-6xl font-extrabold leading-none">1</p>
 							<p className="mt-2 uppercase tracking-wider">Models</p>
 						</div>
 						<div className="text-center">

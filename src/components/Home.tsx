@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Users, Award, ArrowRight } from 'lucide-react';
 
-import heroImg from '../assets/hero.png';
+import heroImg from '../assets/a320.png';
 import heroVideo from '../assets/HeroVideo2.mp4';
 
 const Home: React.FC = () => {
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 		{
 			icon: Award,
 			title: 'Award-Winning',
-			description: 'Recognized globally for excellence in aviation and customer service',
+			description: 'Winner of the Skytrax World Airline Award for Best Airline under 100 members',
 		},
 	];
 
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
 				{/* desktop video */}
 				<video
 					className="absolute inset-0 w-full h-full object-cover hidden md:block"
-					src={heroVideo}
+					src={heroImg}
 					poster={heroImg}
 					autoPlay
 					loop
@@ -54,13 +54,13 @@ const Home: React.FC = () => {
 				{/* hero content */}
 				<div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
 					<h1 className="text-5xl md:text-7xl font-bold text-white">Going Places</h1>
-					<h2 className="text-5xl md:text-7xl font-bold text-amber-400">Together</h2>
+					<h2 className="text-5xl md:text-7xl font-bold text-white">Together</h2>
 					<p className="mt-4 text-lg md:text-2xl text-white max-w-xl">
-						Experience premium aviation in Roblox with Qatar Airways Virtual. Where virtual flights meet real excellence.
+						Experience premium aviation in Roblox with Air Canada Rouge Virtual. Where virtual flights meet real excellence.
 					</p>
 					<div className="mt-8 flex space-x-4">
 						<Link
-							to="https://discord.com/invite/yKt53cWacV"
+							to="https://discord.gg/nxseHHfrRH"
 							target="_blank"
 							className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
 						>
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
 			<section className="py-20 bg-gray-50">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="text-center mb-16">
-						<h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Qatar Airways</h2>
+						<h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Air Canada Rouge</h2>
 						<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 							Experience the difference with our commitment to excellence, innovation, and hospitality.
 						</p>
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 					<h2 className="text-4xl font-bold mb-6">Ready to Take Off?</h2>
 					<p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-						Join millions of satisfied travelers who trust Qatar Airways for their journey around the world.
+						Join hundreds of satisfied travelers who trust Air Canada Rouge Virtual for their journey around the world.
 					</p>
 					<Link
 						to="/fly-with-us"

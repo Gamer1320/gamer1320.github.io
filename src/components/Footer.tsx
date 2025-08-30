@@ -13,22 +13,22 @@ const Footer: React.FC = () => (
         <ul className="space-y-2 text-sm">
           <li>
             <a
-              href="mailto:support@qatarairwaysvirtual.com"
+              href="mailto:aircanadarougevirtual@gmail.com"
               className="text-primary hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              support@qatarairwaysvirtual.com
+              aircanadarougevirtual@gmail.com
             </a>
           </li>
           <li>
             <a
-              href="mailto:founder@qatarairwaysvirtual.com"
+              href="mailto:kylar@pfallegiantair.online"
               className="text-primary hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              founder@qatarairwaysvirtual.com
+              kylar@pfallegiantair.online
             </a>
           </li>
         </ul>
@@ -38,13 +38,13 @@ const Footer: React.FC = () => (
       <div>
         <h4 className="text-lg font-semibold mb-4">Connect</h4>
         <div className="flex space-x-4 text-2xl">
-          <a href="https://discord.com/invite/yKt53cWacV" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+          <a href="https://discord.gg/nxseHHfrRH" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
             <FaDiscord />
           </a>
-          <a href="https://www.instagram.com/qavirtual.pf" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
             <FaInstagram />
           </a>
-          <a href="https://www.youtube.com/@qavirtualpf" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+          <a href="https://www.youtube.com/@AirCanadaRougeVirtual-1312" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
             <FaYoutube />
           </a>
         </div>
@@ -56,12 +56,12 @@ const Footer: React.FC = () => (
         <p className="text-sm">
           Found an issue? Please let us know:&nbsp;
           <a
-            href="mailto:iceit@qatarairwaysvirtual.com"
+            href="mailto:iceit@pfallegiantair.online"
             className="text-primary hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            iceit@qatarairwaysvirtual.com
+            iceit@pfallegiantair.online
           </a>
         </p>
       </div>
@@ -86,7 +86,8 @@ const Footer: React.FC = () => (
 
     {/* Bottom bar */}
     <div className="mt-8 border-t border-gray-200 pt-4 text-center text-xs text-gray-500">
-      &copy; {new Date().getFullYear()} Qatar Airways Virtual. All rights reserved. Not affiliated with Qatar Airways C.S.C.
+      &copy; {new Date().getFullYear()} Air Canada Rouge Virtual. This is a virtual community and is not affiliated with Air Canada or Air Canada Rouge.
+
     </div>
   </footer>
 )

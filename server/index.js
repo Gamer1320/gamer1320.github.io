@@ -121,7 +121,7 @@ app.get('/api/auth/me', async (req, res) => {
             .sort((a, b) => b.position - a.position)[0];
 
         safeUser.topRole = top?.name ?? null;
-        safeUser.isAdmin = member.roles.includes("1394363077260218378");
+        safeUser.isAdmin = member.roles.includes("1351943924628983901");
     } catch (e) {
         // if 404 (not in server) or any other error, just set null
         safeUser.topRole = null;

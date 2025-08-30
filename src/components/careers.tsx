@@ -72,7 +72,7 @@ export default function Careers() {
 			<div className="max-w-6xl mx-auto py-16 px-4">
 				{/* Header Section */}
 				<div className="text-center mb-12">
-					<div className="inline-flex items-center justify-center w-16 h-16 bg-[#870044] rounded-full mb-4">
+					<div className="inline-flex items-center justify-center w-16 h-16 bg-[#1C1C1C] rounded-full mb-4">
 						<Briefcase className="w-8 h-8 text-white" />
 					</div>
 					<h1 className="text-5xl font-bold text-gray-900 mb-4">Join Our Team</h1>
@@ -237,7 +237,7 @@ export default function Careers() {
 								{/* Apply Now button visible on both desktop and mobile */}
 								<button
 									onClick={() => setShowApplyModal(true)}
-									className="px-6 py-2 bg-[#870044] text-white rounded-lg hover:bg-[#5c0632] transition-colors font-medium sm:px-4 sm:py-2 sm:text-sm"
+									className="px-6 py-2 bg-[#870044] text-white rounded-lg hover:bg-[#1C1C1C] transition-colors font-medium sm:px-4 sm:py-2 sm:text-sm"
 								>
 									Apply Now
 								</button>

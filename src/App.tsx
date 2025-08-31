@@ -5,7 +5,7 @@ import {
 	Route,
 	Outlet,
 	useNavigate,
-} from 'react-router-dom'
+} from 'react-router-dom' 
 
 // Core UI
 import Navigation from './components/Navigation'

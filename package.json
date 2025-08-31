@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "express": "^5.1.0",
     "express-session": "^1.18.2",
     "formidable": "^3.5.4",
+    "git": "^0.1.5",
     "lucide-react": "^0.541.0",
     "pg": "^8.16.3",
     "react": "^18.3.1",

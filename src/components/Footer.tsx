@@ -84,10 +84,21 @@ const Footer: React.FC = () => (
       </div>
     </div>
 
-    {/* Bottom bar */}
+     {/* Bottom bar */}
     <div className="mt-8 border-t border-gray-200 pt-4 text-center text-xs text-gray-500">
       &copy; {new Date().getFullYear()} Air Canada Rouge Virtual. This is a virtual community and is not affiliated with Air Canada or Air Canada Rouge.
-
+      
+      <p className="mt-2">
+        All photographs are property of{" "}
+        <a
+          href="https://discord.com/users/1302536401933570120"
+          className="text-[#1C1C1C] hover:text-gray-700"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Snacky Girl
+        </a>
+      </p>
     </div>
   </footer>
 )

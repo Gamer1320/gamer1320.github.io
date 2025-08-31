@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Users, Award, ArrowRight } from 'lucide-react';
 
-import heroImg from '../assets/a320welcome.png';
+import heroImg from '../assets/welcomebanner.png';
 import heroVideo from '../assets/HeroVideo2.mp4';
 
 const Home: React.FC = () => {

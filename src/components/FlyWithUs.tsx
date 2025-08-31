@@ -39,7 +39,7 @@ const FlyWithUs: React.FC = () => {
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Fly with Us</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Book your premium travel experience with Qatar Airways. Exceptional service awaits at every step of your journey.
+            Book your premium travel experience with Air Canada Rouge. Exceptional service awaits at every step of your journey.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ const FlyWithUs: React.FC = () => {
                     className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
                   >
                     <option value="">Select departure city</option>
-                    <option value="doha">Doha (DOH)</option>
+                    <option value="Punta Cana">Punta Cana (MDPC)</option>
                   </select>
                 </div>
 
@@ -260,7 +260,7 @@ const FlyWithUs: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Check className="h-6 w-6 text-red-800" />
+              <Check className="h-6 w-6 text-white" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Best Price Guarantee</h3>
             <p className="text-gray-600 text-sm">Find a lower price? We'll match it and give you 10% off.</p>
@@ -268,7 +268,7 @@ const FlyWithUs: React.FC = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Calendar className="h-6 w-6 text-red-800" />
+              <Calendar className="h-6 w-6 text-white" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Flexible Booking</h3>
             <p className="text-gray-600 text-sm">Change or cancel your flight up to 24 hours before departure.</p>
@@ -276,7 +276,7 @@ const FlyWithUs: React.FC = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <CreditCard className="h-6 w-6 text-red-800" />
+              <CreditCard className="h-6 w-6 text-white" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Secure Payment</h3>
             <p className="text-gray-600 text-sm">Your payment information is protected with industry-leading security.</p>

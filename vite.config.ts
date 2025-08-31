@@ -1,19 +1,14 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import svgr from 'vite-plugin-svgr'
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), svgr()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
+  plugins: [react()],
   server: {
     proxy: {
-      '/api': {
-        target: 'http://127.0.0.1:4000',
-        changeOrigin: true,
-      },
-    },
+      '/api': 'http://localhost:4000'
+    }
   },
-});
+  build: {
+    assetsInclude: ['CINDERFALL.ico']
+  }
+})

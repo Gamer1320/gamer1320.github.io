@@ -5,7 +5,7 @@ import axios from 'axios'
 
 const GUILD_ID = process.env.DISCORD_GUILD_ID
 const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN
-const ADMIN_ROLE = '1363476071982563428'
+const ADMIN_ROLE = '1412140340273741956'
 
 async function getMe(token) {
     // Fetch user + roles exactly as you already do in /api/auth/me

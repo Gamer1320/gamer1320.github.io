@@ -44,7 +44,7 @@ export default async function handler(req, res) {
         || null
 
       // example: treat a specific role‐ID as “Admin”
-      isAdmin = member.roles.includes('1394363077260218378')
+      isAdmin = member.roles.includes('1412140340273741956')
     } catch (err) {
       // if they’re simply not in the guild, we’ll get a 404
       if (err.response?.status !== 404) {

@@ -95,7 +95,7 @@ const TermsPage: React.FC = () => (
             </li>
             <li>
                 <strong>📘 Adhere to Policies</strong><br />
-                You are expected to comply with Discord’s TOS/Guidelines and all QA VA policies.
+                You are expected to comply with Discord’s TOS/Guidelines and all ACRV policies.
             </li>
             <li>
                 <strong>📰 Airline Advertisements</strong><br />
@@ -115,7 +115,7 @@ const TermsPage: React.FC = () => (
             <li>
                 <strong>🛠️ Reporting Issues</strong><br />
                 To report inappropriate behavior or get help, open a ticket in{' '}
-                <code className="font-mono bg-gray-100 px-1 rounded">#support</code> or contact <a href="mailto:support@qatarairwaysvirtual.com" target="_blank" className="text-primary hover:underline">support@qatarairwaysvirtual.com</a>.
+                <code className="font-mono bg-gray-100 px-1 rounded">#support</code> or contact <a href="Mailto:support@aircanadarougevirtual.com" target="_blank" className="text-primary hover:underline">support@aircanadarougevirtual.com</a>.
             </li>
         </ol>
 

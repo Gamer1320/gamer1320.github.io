@@ -70,8 +70,8 @@ const Privacy: React.FC = () => (
             <h2 className="text-2xl font-semibold mb-2">7. Contact Us</h2>
             <p className="text-gray-700">
                 If you have questions about this policy or your data, please reach out to us at{' '}
-                <a href="mailto:privacy@qatarairwaysvirtual.com" className="text-primary hover:underline">
-                    privacy@qatarairwaysvirtual.com
+                <a href="mailto:support@aircanadarougevirtual.com" className="text-primary hover:underline">
+                    support@aircanadarougevirtual.com
                 </a>.
             </p>
         </section>

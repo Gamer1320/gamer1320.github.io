@@ -18,7 +18,7 @@ const Footer: React.FC = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              aircanadarougevirtual@gmail.com
+              support@aircanadarougevirtual.com
             </a>
           </li>
           <li>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              kylar@pfallegiantair.online
+              Gamer1320@aircanadarougevirtual.com
             </a>
           </li>
         </ul>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            iceit@pfallegiantair.online
+            iceit@aircanadarougevirtual.com
           </a>
         </p>
       </div>

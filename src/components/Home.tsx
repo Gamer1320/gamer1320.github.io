@@ -12,7 +12,7 @@ import heroVideo from '../assets/HeroVideo2.mp4';
                 <span class="block w-16 h-1 bg-gray-600 mx-auto mt-2"></span>
             </h2>
             <p class="text-base sm:text-lg text-gray-400 mb-12 max-w-4xl mx-auto">
-                Join the growing community of virtual airlines that rely on PFConnect for their operations management and pilot engagement.
+                Test.
             </p>
 
             <div class="flex flex-wrap justify-center gap-10 lg:gap-16">
